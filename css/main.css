@@ -644,6 +644,7 @@ img {
   height: 100%;
   max-width: 450px;
   font-size: 12px;
+  min-height: 568px;
   overflow: auto;
   background-color: #ffffff;
   display: block;
@@ -653,13 +654,13 @@ img {
 @media screen and (min-width: 320px) and (max-width: 330px) {
   .modal {
     width: 100%;
-    max-height: 568px;
+    max-height: auto;
   }
 }
 
 @media screen and (min-height: 568px) {
   .modal {
-    height: auto;
+    height: 581px;
   }
 }
 
@@ -737,7 +738,7 @@ img {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 40px;
+  padding: 20px 40px;
 }
 
 .form-title {
@@ -1065,7 +1066,7 @@ img {
       -ms-flex-pack: justify;
           justify-content: space-between;
   background-color: #f5f4fa;
-  max-width: 1600px;
+  /*max-width: 1600px;*/
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
@@ -1204,6 +1205,7 @@ img {
 
 .regular-customers {
   padding: 60px 0;
+  height: 370px;
 }
 
 @media screen and (min-width: 768px) {
@@ -1314,6 +1316,7 @@ img {
 .footer {
   display: block;
   max-width: 1600px;
+  height: 252px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 60px;
