@@ -738,7 +738,7 @@ img {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
-  padding: 20px 40px;
+  padding: 30px 40px;
 }
 
 .form-title {
@@ -793,6 +793,8 @@ img {
 .person-request {
   position: relative;
   display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .icon-person-request {
@@ -859,7 +861,7 @@ img {
           justify-content: center;
   letter-spacing: 0.06em;
   display: inline-block;
-  margin-top: 50px;
+  margin-top: 30px;
   border: 1px solid #2196f3;
   border-radius: 4px;
   padding-top: 10px;
